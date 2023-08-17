@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.myapplication.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_habibiMallFragment"
+            app:destination="@id/habibiMallFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_entryEffectFragment"
+            app:destination="@id/entryEffectFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_userLevelFragment"
+            app:destination="@id/userLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/habibiMallFragment"
+        android:name="com.example.myapplication.fragment.HabibiMallFragment"
+        android:label="fragment_habibi_mall"
+        tools:layout="@layout/fragment_habibi_mall" >
+        <action
+            android:id="@+id/action_habibiMallFragment_to_avatarFragment"
+            app:destination="@id/avatarFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entryEffectFragment"
+        android:name="com.example.myapplication.fragment.EntryEffectFragment"
+        android:label="fragment_entry_effect"
+        tools:layout="@layout/fragment_entry_effect" />
+    <fragment
+        android:id="@+id/userLevelFragment"
+        android:name="com.example.myapplication.fragment.UserLevelFragment"
+        android:label="fragment_user_level"
+        tools:layout="@layout/fragment_user_level" />
+    <fragment
+        android:id="@+id/avatarFragment"
+        android:name="com.example.myapplication.fragment.AvatarFragment"
+        android:label="fragment_avatar"
+        tools:layout="@layout/fragment_avatar" />
+</navigation>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="level_01">Level 01</string>
+    <string name="entry_effect">Entry Effect</string>
+    <string name="entry_effects">Entry Effects</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="habibi_mall">Habibi Mall</string>
+    <string name="design_1">Design 1</string>
+    <string name="design_2">Design 2</string>
+    <string name="design_3">Design 3</string>
+    <string name="design_test">Design Test App</string>
+    <string name="user_level">User Level</string>
+    <string name="livestreaming_level">Livestreaming Level</string>
+    <string name="lv_01">Lv: 01</string>
+    <string name="current_exp">Current Exp</string>
+    <string name="_0">0</string>
+    <string name="to_the_next_level">To the next level</string>
+    <string name="_201">201</string>
+    <string name="level_privileges">Level Privileges</string>
+    <string name="see_all">see all</string>
+    <string name="profile_decoration">Profile Decoration</string>
+    <string name="dragon">Dragon</string>
+    <string name="avatar_price">60,000/15d</string>
+    <string name="sending">Sending</string>
+    <string name="purchase">Purchase</string>
+</resources>
